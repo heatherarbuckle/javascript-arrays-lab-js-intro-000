@@ -25,3 +25,18 @@ function appendKitten(name) {
   var newKittens = kittens.concat(name);
   return newKittens;
 }
+
+function prependKitten(name) {
+  var newerKittens = kittens.slice(name);
+  return newerKittens;
+}
+
+function removeLastKitten() {
+  var lessKittens = kittens.pop();
+  return lessKittens;
+}
+
+function removeFirstKitten() {
+  var firstGoneKitten = kittens.shift();
+  return firstGoneKitten;
+}
