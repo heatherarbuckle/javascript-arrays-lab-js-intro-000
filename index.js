@@ -26,12 +26,12 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  const newKitten = [name, ...kittens];
+  const newKittens = [name, ...kittens];
   return newKittens;
 }
 
 function removeLastKitten() {
-  const lessKittens = kittens.slice(0,1);
+  const lessKittens = kittens.slice(0,2);
   return lessKittens;
 }
 
