@@ -1,6 +1,6 @@
 var kittens = [
-  "Milo", 
-  "Otis", 
+  "Milo",
+  "Otis",
   "Garfield"
 ] //define your array here
 
